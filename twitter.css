@@ -1,0 +1,73 @@
+body {
+	background-color: #ffffff;
+	background: #FFF url(images/fondo.png) repeat-x;
+	font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+	color: #444;
+	text-align: center;
+}
+a {
+    text-decoration: none;
+    font-weight:bold;
+    color:#777;
+}
+#nuages {
+	position: absolute;
+	left:0px;
+	top:0px;
+    z-index: 1;
+}
+#bird {
+	position: absolute;
+	left:0px;
+	top:0px;
+    z-index: 1;
+}
+#subpage {
+    margin: 1em auto;
+	position: relative;
+	width: 1024px;
+	z-index: 10;
+}
+#feed {
+    -moz-border-radius: 5px 5px 5px 5px;
+    background: #FFF;
+    border: 1px solid #BBB;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+#arrow-left {
+	position: relative;
+    left: -79px;
+	top: -10px;
+}
+#arrow-right {
+	position: relative;
+	left: -385px;
+	top: -10px;
+}
+#feed div.avatar {
+	float: left;
+	width: 48px;
+	height: 48px;
+	overflow: hidden;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#feed div.msg {
+    padding: 0;
+    word-wrap: break-word;
+}
+#feed div.source {
+    line-height: 19px;
+    padding: 0;
+    word-wrap: break-word;
+}
+#feed div.info {
+  font-style: italic;
+  color: #777;
+}
+#feed div.info.source {
+  font-style: italic;
+  color: #777;
+  text-decoration: none;
+}

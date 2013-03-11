@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Local Twitter Feed</title>
+    <script src="../../js/jquery.js" type="text/javascript"></script>
+    <script src="twitter.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          initialize();
+          resizeFrame();
+      });    
+
+      $(window).resize(function() {
+          resizeFrame();
+      });    
+      
+      function resizeFrame() {
+          $("#bird").css("top", window.innerHeight-250)
+      }
+    </script>
+    <link rel="stylesheet" type="text/css" media="screen" href="twitter.css">
+</head>
+<body>
+<div id="subpage">
+</div>
+<div id="nuages"><center><img src="images/nubes.png" width="1415" height="147" alt="Nubes"></center></div> -->
+<div id="bird"><img src="images/bird.png"></div>
+</body>
+</html>
